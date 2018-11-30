@@ -46,4 +46,6 @@ googleMapsClient.directions({
           })
       }
   }
+      else
+        console.log("ERROR: Place not found.\n");
 });
